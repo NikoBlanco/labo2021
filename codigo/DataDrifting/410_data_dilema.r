@@ -1,4 +1,5 @@
 #limpio la memoria
+
 rm(list=ls())   #remove all objects
 gc()            #garbage collection
 
@@ -7,7 +8,7 @@ require("parallel")
 require("rpart")
 
 #setwd( "M:\\" )
-setwd( "~/buckets/b1/crudo/" )
+setwd( "~/buckets/b1/" )
 
 #Aqui van VEINTE semillas
 ksemillas  <- c(142297, 191507, 198839, 258707, 268091, 287047, 330557, 386333, 490619, 497239,
